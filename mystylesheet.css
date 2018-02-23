@@ -135,7 +135,7 @@ a:hover{
 }
 #sports-title{
     color: black;
-    top: 20%;
+    top: 30%;
     font-size: 35px;
     margin-left: 20%;
     text-decoration: none;
@@ -144,9 +144,9 @@ a:hover{
 
 #travel-title{
      color: black;
-     top: 20%;
+     top: 30%;
     font-size: 35px;
-    margin-left: 20%;
+    margin-left:-30%;
     text-decoration: none;
     position: absolute;
 }
@@ -157,4 +157,12 @@ a:hover{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.Ebus-titles{
+     color: black;
+    top: 30%;
+    font-size: 35px;
+    text-decoration: none;
+   position: absolute;
 }
