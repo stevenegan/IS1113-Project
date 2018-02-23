@@ -1,0 +1,160 @@
+html, head
+.mainheading{
+    text-align: center;
+    color:black;
+    top: 50px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.homepagedetails{ 
+    background: url("http://servantofmessiah.org/wp-content/uploads/2016/12/Website-Background-Web-800x450.jpg");
+    height:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+a{
+    margin: 130px;
+    font-size: 35px;
+    margin-left:13%;
+    text-decoration: none;
+    color: Black;
+}
+a:hover{
+    color: lime;
+}
+
+.circle{
+    width: 60%;
+    border-radius: 50%;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+
+}
+
+.circle{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #000;
+   
+}
+
+#CV{
+    content: absolute;
+}
+
+ span {
+     position: absolute;
+     top: 50%;
+     margin-left: 20px;
+     font-size: 60px;
+     
+
+}
+.titles {
+    margin-top: 300px;
+
+}
+
+.mainheading1{
+    text-align: center;
+    color:black;
+    margin-top: 50px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#section1{
+    background: url("images/madrid.jpeg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    color:white;
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-style: normal;
+}
+
+#travel-header {
+    color:white;
+    top: -30%;
+    font-size: 20px;
+       text-shadow: 2px 2px #000000;
+    position: relative;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    
+}
+
+#sub-header {
+    color:white;
+    top: -25%;
+    font-size: 50px;
+       text-shadow: 2px 2px #000000;
+    position: relative;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    
+}
+
+#section2{
+    background: url("images/santorini.jpeg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    color:white;
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    
+}
+
+#section3{
+    background: url("images/austrailia.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    color:white;
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    
+}
+
+.titles1 {
+    margin-top: 300px;
+
+}
+#sports-title{
+    color: black;
+    top: 20%;
+    font-size: 35px;
+    margin-left: 20%;
+    text-decoration: none;
+   position: absolute;
+}
+
+#travel-title{
+     color: black;
+     top: 20%;
+    font-size: 35px;
+    margin-left: 20%;
+    text-decoration: none;
+    position: absolute;
+}
+
+.traveldetails{
+    background: url("images/options1.png");
+    height:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
