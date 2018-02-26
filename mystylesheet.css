@@ -166,3 +166,27 @@ a:hover{
     text-decoration: none;
    position: absolute;
 }
+#Sportstitles{
+    position: absolute;
+    background: url("../images/sports.jpeg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-style: normal;
+}
+
+.Sportstitles{
+    position: absolute;
+    background: url("../images/sports.jpeg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    height:100%;
+}
+
+#Sportstitles p {
+    position: relative;
+    color:#000;
