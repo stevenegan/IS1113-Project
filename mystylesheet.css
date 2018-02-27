@@ -3,7 +3,7 @@ html, head
     text-align: center;
     color:black;
     top: 50px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     font-family: arial,helvetica;
 }
 
 html, body {
@@ -18,32 +18,22 @@ html, body {
     background-size: cover;
 }
 a{
-    margin: 130px;
-    font-size: 35px;
-    margin-left:13%;
+    margin: 100px;
+    font-size: 30px;
+    left: 50%;
     text-decoration: none;
     color: Black;
 }
 a:hover{
-    color: lime;
+    color: grey;
 }
 
-.circle{
-    width: 60%;
-    border-radius: 50%;
-    background-color: red;
-    color: #fff;
-    text-align: center;
-
-}
-
-.circle{
-    background-color: white;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 2px solid #000;
-   
+.box{
+    position:absolute;
+    top:34%;
+    left:10%;
+    height:60%;
+    width:80%;
 }
 
 #CV{
@@ -67,7 +57,8 @@ a:hover{
     text-align: center;
     color:black;
     margin-top: 50px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: arial,helvetica;
+  text-decoration: underline;
 }
 
 #section1{
@@ -78,7 +69,7 @@ a:hover{
     color:white;
     margin-top: 10px;
     font-size: 50px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     font-family: arial,helvetica;
     font-style: normal;
 }
 
@@ -88,7 +79,7 @@ a:hover{
     font-size: 20px;
        text-shadow: 2px 2px #000000;
     position: relative;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: arial,helvetica;
     font-style: normal;
     
 }
@@ -99,7 +90,7 @@ a:hover{
     font-size: 50px;
        text-shadow: 2px 2px #000000;
     position: relative;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     font-family: arial,helvetica;
     font-style: normal;
     
 }
@@ -112,7 +103,7 @@ a:hover{
     color:white;
     margin-top: 10px;
     font-size: 40px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: arial,helvetica;
     
 }
 
@@ -124,7 +115,7 @@ a:hover{
     color:white;
     margin-top: 10px;
     font-size: 40px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-family: arial,helvetica;
     font-style: normal;
     
 }
@@ -159,6 +150,20 @@ a:hover{
     background-size: cover;
 }
 
+.Homebtn1{
+    color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    background-color: grey;
+    position: absolute;
+    margin-left: -550px;
+    top: 620px;
+    
+    
+}
+
 .Ebus-titles{
      color: black;
     top: 30%;
@@ -180,13 +185,20 @@ a:hover{
 
 .Sportstitles{
     position: absolute;
-    background: url("../images/sports.jpeg");
+    background-image: img src("../images/sports.jpeg");
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
     height:100%;
+    
 }
 
-#Sportstitles p {
-    position: relative;
-    color:#000;
+.Sports {
+
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    position: absolute;
+    margin-left: 500px;
+}

@@ -9,7 +9,7 @@
 
     </head>
     
-    <body class="Ebus-titles">
+    <body>
         
             <h4>Select a Product</h4>
             
@@ -30,6 +30,17 @@
               </label>
               
               <br/>
+            
+              <label for="Cloud 9">
+                <input type="radio" id="Cloud9" name="product" checked onClick="disablebtnProceed()"/>
+                Cloud 9 @ $200
+              </label>
+              <br/>
+            
+              <label for="Gmail">
+                <input type="radio" id="Gmail" name="product" checked onClick="disablebtnProceed()"/>
+                Gmail @ $400
+              </label>
               <br/>
               
               <label for="subtotal">
