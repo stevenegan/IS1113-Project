@@ -2,8 +2,8 @@ html, head
 .mainheading{
     text-align: center;
     color:black;
-    top: 50px;
-     font-family: arial,helvetica;
+    font-family: arial,helvetica;
+    font-size: 30px;
 }
 
 html, body {
@@ -11,16 +11,17 @@ html, body {
 }
 
 .homepagedetails{ 
-    background: url("http://servantofmessiah.org/wp-content/uploads/2016/12/Website-Background-Web-800x450.jpg");
+    background: url("images/buildings.jpeg");
     height:100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: absolute;
 }
 a{
-    margin: 100px;
+    margin: 115px;
     font-size: 30px;
-    left: 50%;
+    left: 60px;
     text-decoration: none;
     color: Black;
 }
@@ -49,7 +50,7 @@ a:hover{
 
 }
 .titles {
-    margin-top: 300px;
+    margin-top: 250px;
 
 }
 
@@ -202,3 +203,4 @@ a:hover{
     position: absolute;
     margin-left: 500px;
 }
+
