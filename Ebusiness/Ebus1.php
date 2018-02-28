@@ -10,7 +10,7 @@
     </head>
     
     <body>
-        
+        <div class="Products"
             <h4>Select a Product</h4>
             
             <br/>
@@ -64,6 +64,6 @@
             <br/>
             <button onClick="calcSub()">Calculate Cost</button>
             <a role="button" href="Ebus1.php">Clear Choice</a>
-    
+    </div>
     </body>
 </html>
