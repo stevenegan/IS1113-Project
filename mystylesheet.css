@@ -215,13 +215,14 @@ a:hover{
 }
 
 .cloudplushome{ 
-    background: url("images/CloudPlusHome.png");
+    background: url("images/CloudHome1.jpeg");
     height:100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: absolute;
 }
-.Products{
-    
+
+.cloudtitles {
+    margin-top: 250px;
 }
