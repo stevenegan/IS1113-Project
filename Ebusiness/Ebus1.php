@@ -50,11 +50,42 @@
               
               <br/>
               
-              <label for="total">
+               <br/>
+              <label for="discount for 5%">
+              Discount @ 5%
+                <input type="text" id="discount for 5%" name="discount for 5%"  value="0.00" readonly/>
+             </label>
+
+             <br/>
+
+            
+
+             <br/>
+              <label for="vat for 10%">
+              
+              Vat @ 10%
+              
+             <input type="text" id="vat for 10%" name="vat for 10%" value="0.00" readonly/>
+        
+             </label>
+              <br/>
+              
+             <label for="total">
                 Total
-                <input type="hidden" id="total" name="total" value="0.00" readonly/>
+             <input type="hidden" id="total" name="total" value="0.00" readonly/>
               </label>
     
+              <br/>
+              
+              <label for="(-Discount,+Vat)">
+
+                [ Discount (-) , Vat (+) ]
+
+                <input type="hidden" name="(-Discount,+Vat)"  readonly/>
+
+              </label>
+    
+
               <br/>
               
               <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
