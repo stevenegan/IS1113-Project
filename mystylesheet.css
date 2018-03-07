@@ -238,3 +238,29 @@ a:hover{
     font-size: 40px;
     font-family: arial,helvetica;
     font-style: normal;
+}
+
+.aboutus{
+    background: url("images/aboutus.jpeg");
+    height:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    
+}
+.mainheading3{
+    text-align: center;
+    color:black;
+  font-family: arial,helvetica;
+  
+}
+
+.mainheading4{
+    text-align: center;
+    color:black;
+  font-family: arial,helvetica;
+  margin-top: 100px;
+  
+}
+  
