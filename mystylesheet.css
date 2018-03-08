@@ -96,7 +96,14 @@ a:hover{
     font-style: normal;
     
 }
-
+ #para{
+    color:white;
+    font-size: 50px;
+    position: relative;
+    font-family: arial,helvetica;
+    font-style: normal;
+    margin-left: 255;
+}
 #section2{
     background: url("images/santorini.jpeg");
     background-repeat: no-repeat;
@@ -293,5 +300,14 @@ a:hover{
 }
 
 .Products{
-    position: center;
+    position: relative;
+    background: url("../images/cloudlogopic.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: arial,helvetica;
+    font-style: normal;
+    height: 100%;
 }

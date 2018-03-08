@@ -6,12 +6,14 @@
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
+         <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
 
     </head>
     
     <body>
-        <div class="Products"
-            <h4>Select a Product</h4>
+        <div class="Products">
+        
+            <h4 class="product-header">Select a Product</h4>
             
             <br/>
             
@@ -68,11 +70,12 @@
              <input type="text" id="vat for 10%" name="vat for 10%" value="0.00" readonly/>
         
              </label>
+             
               <br/>
-              
+              <br/>
              <label for="total">
                 Total
-             <input type="hidden" id="total" name="total" value="0.00" readonly/>
+             <input type="text" id="total" name="total" value="0.00" readonly/>
               </label>
     
               <br/>
