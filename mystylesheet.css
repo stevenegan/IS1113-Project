@@ -8,6 +8,7 @@ html, head
 
 html, body {
     height: 100%;
+    margin: 0px;
 }
 
 .homepagedetails{ 
@@ -281,10 +282,16 @@ a:hover{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-top: -45px;
 }
-.mainheading5{
+
+.mainheading5 h1{
     text-align: center;
     color:black;
   font-family: arial,helvetica;
+  margin-top: 50px;
 }
 
+.Products{
+    position: center;
+}

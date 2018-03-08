@@ -1,35 +1,71 @@
-#section4{
-    background: url("aws1.png");
+#section1{
+    background: url("https://images.pexels.com/photos/19670/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb");
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
-    color:white;
     margin-top: 10px;
-    font-size: 40px;
+    font-size: 25px;
     font-family: arial,helvetica;
     font-style: normal;
+    position: absolute;
 }
 
-#section5{
-    background: 
+#section2{
+    background: url("../images/sflogo.png");
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
-    color:white;
     margin-top: 10px;
-    font-size: 40px;
-   font-family: arial,helvetica;
+    font-size: 25px;
+    font-family: arial,helvetica;
     font-style: normal;
+    position: absolute;
 }
 
-#section6{
-    background: 
+#section3{
+    background: url("../images/glogo.png"); 
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
-    color:white;
     margin-top: 10px;
-    font-size: 40px;
-   font-family: arial,helvetica;
+    font-size: 25px;
+    font-family: arial,helvetica;
     font-style: normal;
+    position: absolute;
+}
+#sub-header {
+    color: black;
+    top: -25%;
+    font-size: 50px;
+    position: relative;
+    font-family: arial,helvetica;
+    font-style: normal;
+    margin-left: 25%;
+    margin-top: -200px;
+}
+
+#sub-header1 {
+    color: black;
+    top: -25%;
+    font-size: 50px;
+    position: relative;
+    font-family: arial,helvetica;
+    font-style: normal;
+    margin-left: 55%;
+    text-align: center;
+}
+#sub-header1 {
+    color: black;
+    top: -25%;
+    font-size: 50px;
+    position: relative;
+    font-family: arial,helvetica;
+    font-style: normal;
+    margin-left: 55%;
+    text-align: center;
+}
+
+.section{
+    text-align: center;
+    font-size: 20px;
 }
