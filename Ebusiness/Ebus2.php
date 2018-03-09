@@ -37,7 +37,7 @@ session_start();
 
           <label for="user_pin">
                     
-          <input type="password" id="user_pin" name"PIN" placeholder="Card PIN" maxlength="4">
+          <input type="password" id="user_pin" name"user_pin" placeholder="Card PIN" maxlength="4">
           
           </label>
           

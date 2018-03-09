@@ -4,8 +4,8 @@ function validateDetails(){
      var pin, name, email;
 
         pin = document.getElementById("user_pin").value;
-        EMAIL = document.getElementById("email").value;
-        NAME = document.getElementById("name").value;
+        email = document.getElementById("email").value;
+        name = document.getElementById("name").value;
  
    
     
@@ -26,6 +26,8 @@ function validateDetails(){
    {
                    enablebtnPurchase();
               }
+    
+}
 
 function enablebtnPurchase(){
     $('#btnPurchase').prop('disabled', false);
