@@ -16,21 +16,47 @@ session_start();
         
         
             <form action="Ebus3.php" method="POST">
+                
+          <label for="name">
 
-                    <label for="user_pin">PIN</label>
+          <input type="text" id="name" name="name" placeholder="Name" value=""/>
+
+          </label>
+
+          </br>
+          
+          <label for="email">
+
+          <input type="text" id="email" name="email" placeholder="Email" value=""/>
+
+          </label>
+
+          </br>
+
+          <label for="user_pin">
                     
-                    <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
-
-                <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
+          <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
+          
+          </label>
+          
+          </br> 
+          
+          </br>
+          
+          <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
               
             </form>
             
             <br/>
-            <button onClick="validateDetails()">Validate</button>
+            
+            <button id="btnVal" onClick="validateDetails()">Validate</button>
             
             <?php
             // Set session variables
             $_SESSION["total"] = $_POST["total"];
+            $_SESSION["vat"] = $_POST["vat"];
+            $_SESSION["discount"] = $_POST["discount"];
+            $_SESSION["subtotal"] = $_POST["subtotal"];
             ?>
         
     </body>

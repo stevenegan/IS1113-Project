@@ -20,27 +20,27 @@
             <form method="POST" action="Ebus2.php">
               
               <label for="salesforce">
-                <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
+                <input type="radio" id="salesforce" name="salesforce" checked onClick="disablebtnProceed()"/>
                 SalesForce @ $100
               </label>
               
               <br/>
               
               <label for="aws">
-                <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
+                <input type="radio" id="aws" name="aws" onClick="disablebtnProceed()"/>
                 AWS @ $300
               </label>
               
               <br/>
             
               <label for="Cloud 9">
-                <input type="radio" id="Cloud9" name="product" checked onClick="disablebtnProceed()"/>
+                <input type="radio" id="Cloud9" name="Cloud9" onClick="disablebtnProceed()"/>
                 Cloud 9 @ $200
               </label>
               <br/>
             
               <label for="Gmail">
-                <input type="radio" id="Gmail" name="product" checked onClick="disablebtnProceed()"/>
+                <input type="radio" id="Gmail" name="Gmail" onClick="disablebtnProceed()"/>
                 Gmail @ $400
               </label>
               <br/>
@@ -53,9 +53,9 @@
               <br/>
               
                <br/>
-              <label for="discount for 5%">
+              <label for="discount">
               Discount @ 5%
-                <input type="text" id="discount for 5%" name="discount for 5%"  value="0.00" readonly/>
+                <input type="text" id="discount" name="discount"  value="0.00" readonly/>
              </label>
 
              <br/>
@@ -63,16 +63,17 @@
             
 
              <br/>
-              <label for="vat for 10%">
+              <label for="vat">
               
               Vat @ 10%
               
-             <input type="text" id="vat for 10%" name="vat for 10%" value="0.00" readonly/>
+             <input type="text" id="vat" name="vat" value="0.00" readonly/>
         
              </label>
              
               <br/>
               <br/>
+              
              <label for="total">
                 Total
              <input type="text" id="total" name="total" value="0.00" readonly/>
