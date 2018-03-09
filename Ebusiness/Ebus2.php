@@ -9,9 +9,11 @@ session_start();
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="ebus2_validator.js"></script>
+        <script type="text/javascript" src="Ebus2_validator.js"></script>
+        <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
     </head>
     <body>
+            <div class="Detials1">
         <h4>Please enter your payment details</h4>
         
         
@@ -27,7 +29,7 @@ session_start();
           
           <label for="email">
 
-          <input type="text" id="email" name="email" placeholder="Email" value=""/>
+          <input type="email" id="email" name="email" placeholder="Email" value=""/>
 
           </label>
 
@@ -35,7 +37,7 @@ session_start();
 
           <label for="user_pin">
                     
-          <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
+          <input type="password" id="user_pin" name"PIN" placeholder="Card PIN" maxlength="4">
           
           </label>
           
@@ -50,7 +52,7 @@ session_start();
             <br/>
             
             <button id="btnVal" onClick="validateDetails()">Validate</button>
-            
+            </div>
             <?php
             // Set session variables
             $_SESSION["total"] = $_POST["total"];

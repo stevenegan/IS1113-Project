@@ -12,12 +12,12 @@
     
     <body>
         
-        <div id="Products">
-            <h4>Select a Product</h4>
+        <div class="Products">
+            <h4 class="product-header">Select a Product</h4>
             
             <br/>
             
-            <form method="POST" action="ebus2.php">
+            <form method="POST" action="Ebus2.php">
               
               <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
